@@ -1,0 +1,114 @@
+Protel Design System Design Rule Check
+PCB File : D:\Electric Programs\Altium\ESP32 Board\ESP32\ESP32_USB-C.PcbDoc
+Date     : 6/22/2025
+Time     : 3:46:01 PM
+
+Processing Rule : Clearance Constraint (Gap=0mil) (All),(WithinRoom('Overlap1'))
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=3.937mil) (WithinRoom('FTDI') OR WithinRoom('USBC1') or WithinRoom('USBC2')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=7.992mil) (InDifferentialPairClass('DIFF90')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=3.937mil) (WithinRoom('ESP_USB')),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+   Violation between Isolated copper: Split Plane  (GND) on L3. Dead copper detected. Copper area is : 102.668 sq. mils
+Rule Violations :1
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=100mil) (Preferred=10mil) (All)
+Rule Violations :0
+
+Processing Rule : Routing Topology Rule(Topology=Shortest) (All)
+Rule Violations :0
+
+Processing Rule : Routing Layers(All)
+Rule Violations :0
+
+Processing Rule : Routing Via (MinHoleWidth=12mil) (MaxHoleWidth=12mil) (PreferredHoleWidth=12mil) (MinWidth=24mil) (MaxWidth=24mil) (PreferedWidth=24mil) (All)
+Rule Violations :0
+
+Processing Rule : Differential Pairs Uncoupled Length using the Gap Constraints (Min=8mil) (Max=8.1mil) (Prefered=8mil)  and Width Constraints (Min=5.1mil) (Max=6.23mil) (Prefered=6.03mil) (InDifferentialPairClass('DIFF90'))
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=20mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (InNet('GND'))
+   Violation between Starved Thermal on L3: Via (7515.748mil,5507.874mil) from L1 to L4. Blocked 2 out of 4 entries.
+   Violation between Starved Thermal on L3: Via (7515.748mil,5574.803mil) from L1 to L4. Blocked 2 out of 4 entries.
+Rule Violations :2
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
+Rule Violations :0
+
+Processing Rule : Pads and Vias to follow the Drill pairs settings
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=2mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=1mil) (IsPad),(All)
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 1mil) Between Arc (9628.662mil,6133.267mil) on Top Overlay And Pad C5-2(9640mil,6150mil) on L1 [Top Overlay] to [Top Solder] clearance [0mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 1mil) Between Pad C4-2(9633.86mil,5435mil) on L1 And Text "1" (9627mil,5434mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 1mil) Between Pad U2-1(7764.37mil,6140.414mil) on L1 And Track (7750mil,6131.89mil)(7750mil,6181.102mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 1mil) Between Pad U2-2(7744.686mil,6140.414mil) on L1 And Track (7750mil,6131.89mil)(7750mil,6181.102mil) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mil]
+Rule Violations :4
+
+Processing Rule : Silk to Silk (Clearance=2mil) (All),(All)
+   Violation between Silk To Silk Clearance Constraint: (0.671mil < 2mil) Between Text "1" (9627mil,5434mil) on Top Overlay And Track (9579.93mil,5414mil)(9653.93mil,5414mil) on Top Overlay Silk Text to Silk Clearance [0.671mil]
+   Violation between Silk To Silk Clearance Constraint: (Collision < 2mil) Between Text "1" (9627mil,5434mil) on Top Overlay And Track (9653.93mil,5414mil)(9653.93mil,5456mil) on Top Overlay Silk Text to Silk Clearance [0mil]
+Rule Violations :2
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+   Violation between Net Antennae: Track (9651mil,6203mil)(9670mil,6184mil) on L1 
+Rule Violations :1
+
+Processing Rule : Room USBC1 (Bounding Region = (7220mil, 5935mil, 7283mil, 6225mil) (False)
+Rule Violations :0
+
+Processing Rule : Room ESP_USB (Bounding Region = (8931mil, 5740mil, 9097mil, 5824mil) (False)
+Rule Violations :0
+
+Processing Rule : Room USBC2 (Bounding Region = (7214mil, 5377mil, 7319mil, 5662mil) (False)
+Rule Violations :0
+
+Processing Rule : Room FTDI (Bounding Region = (7640mil, 5970mil, 7825mil, 6158.392mil) (False)
+Rule Violations :0
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mil, Vertical Gap = 0mil ) (InComponent('R24')),(InComponent('R26')) 
+   Violation between Component Clearance Constraint: (Collision) Between SMT Small Component R24-0R (8962mil,5756mil) on L1 And SMT Small Component R26-0R (8999.992mil,5756mil) on L1 
+Rule Violations :1
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mil, Vertical Gap = 0mil ) (InComponent('R1')),(InComponent('R2')) 
+   Violation between Component Clearance Constraint: (Collision) Between SMT Small Component R1-0R (7740.984mil,5815mil) on L1 And SMT Small Component R2-0R (7775mil,5815mil) on L1 
+Rule Violations :1
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 9.252mil, Vertical Gap = 9.252mil ) (All),(All) 
+Rule Violations :0
+
+Processing Rule : Component Clearance Constraint ( Horizontal Gap = 0mil, Vertical Gap = 0mil ) (InComponent('R23')),(InComponent('R25')) 
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1000mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+
+Violations Detected : 12
+Waived Violations : 0
+Time Elapsed        : 00:00:01
